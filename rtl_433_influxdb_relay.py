@@ -3,12 +3,15 @@
 """InfluxDB monitoring relay for rtl_433."""
 
 # Start rtl_433 (rtl_433 -F syslog::1433), then this script
-import os
-
-from influxdb_client import InfluxDBClient, Point
-import socket
 import json
+import os
+import socket
 import sys
+
+from dotenv import load_dotenv
+from influxdb_client import InfluxDBClient, Point
+
+load_dotenv()
 
 UDP_IP = "127.0.0.1"
 UDP_PORT = 1433
