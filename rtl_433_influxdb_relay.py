@@ -33,12 +33,14 @@ FIELDS = [
 ]
 
 MODEL_MEASUREMENT_MAPPINGS = {
+    "LaCrosse-TX": "temperatures",
     "LaCrosse-TX29IT": "temperatures",
     "Acurite-606TX": "temperatures",
     "Acurite-Tower": "temperatures",
 }
 
 LOCATION_MAPPINGS = {
+    "LaCrosse-TX": {14: "Server Room"},
     "LaCrosse-TX29IT": {49: "Backdoor"},
     "Acurite-606TX": {101: "Outside Tree", 116: "Outside Tree"},
     "Acurite-Tower": {
