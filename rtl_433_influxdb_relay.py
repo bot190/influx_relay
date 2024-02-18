@@ -47,7 +47,7 @@ LOCATION_MAPPINGS = {
         8413: "Work Office",
         16018: "Personal Office",
         3162: "Master Bedroom",
-        14340: "Server Room - 2",
+        14340: "Workshop",
     },
 }
 
