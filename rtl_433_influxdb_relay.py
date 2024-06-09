@@ -42,7 +42,7 @@ MODEL_MEASUREMENT_MAPPINGS = {
 LOCATION_MAPPINGS = {
     "LaCrosse-TX": {14: "Server Room"},
     "LaCrosse-TX29IT": {49: "Backdoor"},
-    "Acurite-606TX": {101: "Outside Tree", 116: "Outside Tree"},
+    "Acurite-606TX": {93: "Outside Shade"},
     "Acurite-Tower": {
         8413: "Work Office",
         16018: "Personal Office",
